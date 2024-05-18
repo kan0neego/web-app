@@ -1,0 +1,32 @@
+.button-avatar {
+  composes: button from '../Button/Button.module.css';
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  /* overflow: hidden; */
+  background: var(--main-hight-color);
+  background-clip: padding-box;
+}
+
+.button-avatar__img {
+  object-fit: cover;
+  z-index: 2;
+  border-radius: 100px;
+}
+
+.button-avatar--pink-gradient {
+  position: relative;
+  border: solid 2px transparent;
+  border-radius: 100px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: 1;
+    margin: -2px;
+    border-radius: inherit;
+    background: var(--main-pink-gradient);
+  }
+}

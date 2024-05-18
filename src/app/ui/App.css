@@ -1,0 +1,66 @@
+:root {
+  --main-text-color: #6f6f74;
+  --main-border-radius: 16px;
+  --main-border-radius-small: 12px;
+  --main-gray-color: rgba(38, 38, 38, 1);
+  --main-light-gray-color: rgba(111, 111, 116, 1);
+  --main-hight-color: rgba(32, 32, 32, 1);
+  --main-low-color: rgba(27, 27, 28, 1);
+  --main-black-color: rgba(21, 21, 21, 1);
+  --main-inactive-color: rgba(111, 111, 116, 1);
+  --main-pink-gradient: linear-gradient(
+    135.59deg,
+    #dc5497 2.77%,
+    #9063d1 91.5%
+  );
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  color: white;
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-height: 380px) {
+    flex-direction: row;
+  }
+}
+
+body {
+  background: var(--main-low-color);
+}
+
+/* FIREFOX */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+}
+
+/* CHROME */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

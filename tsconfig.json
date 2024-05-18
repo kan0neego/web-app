@@ -1,11 +1,8 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": ".",
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -20,7 +17,14 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": [
-    "src"
-  ]
+  "exclude": ["node_modules", "public"],
+  "include": ["src"],
+  "paths": {
+    "@/app/*": ["./src/app/*"],
+    "@/features/*": ["./src/features/*"],
+    "@/entities/*": ["./src/entities/*"],
+    "@/views/*": ["./src/pages/*"],
+    "@/shared/*": ["./src/shared/*"],
+    "@/widgets/*": ["./src/widgets/*"]
+  }
 }

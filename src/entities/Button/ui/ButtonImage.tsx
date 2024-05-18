@@ -1,0 +1,15 @@
+import { Button, ImageOutline } from "../../../shared";
+import clsx from "clsx";
+import style from "./Button.module.css";
+
+export default function ButtonImage({}: Props) {
+  return (
+    <Button
+      className={clsx(style["button-bubble"], style["button-bubble--radius"])}
+    >
+      <ImageOutline style={{ width: "20px", height: "20px" }} />
+    </Button>
+  );
+}
+
+type Props = {};

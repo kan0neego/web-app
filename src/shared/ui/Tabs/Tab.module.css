@@ -1,0 +1,24 @@
+.tab {
+  composes: button from '../Button/Button.module.css';
+  width: 100%;
+  height: 36px;
+  padding: 8px 12px 8px 12px;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+
+  font-size: 1rem;
+  line-height: 1.428rem;
+  letter-spacing: calc(1rem / 33);
+  color: var(--main-inactive-color);
+
+  &:hover {
+    border-bottom-color: white;
+    color: white;
+  }
+}
+
+.tab--active {
+   border-bottom-color: white;
+   color: white;
+}

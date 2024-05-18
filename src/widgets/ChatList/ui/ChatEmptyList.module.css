@@ -1,0 +1,11 @@
+.chat-empty {
+   text-align: center;
+}
+
+.chat-empty-list__text {
+   display: block;
+   font-size: 1.142rem;
+   font-weight: 400;
+   margin-top: 1.285rem;
+   color: rgba(177, 177, 177, 1);
+}
