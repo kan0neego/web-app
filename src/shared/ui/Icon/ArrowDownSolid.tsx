@@ -21,4 +21,3 @@ export default function ArrowDownSolid({ style }: Props) {
 type Props = {
   style?: CSSProperties;
 };
-

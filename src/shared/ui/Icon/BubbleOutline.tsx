@@ -21,5 +21,3 @@ export default function BubbleOutline({ style }: Props) {
 type Props = {
   style?: CSSProperties;
 };
-
-

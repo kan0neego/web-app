@@ -9,7 +9,5 @@ type Props = {
 export default function TabPanel({ value, children }: Props) {
   const context = useContext(TabsContext);
 
-  return (
-    <Fragment>{context === value ? children : <></>}</Fragment>
-  );
+  return <Fragment>{context === value ? children : <></>}</Fragment>;
 }

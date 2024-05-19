@@ -3,7 +3,7 @@ import {
   type ReactNode,
   type ComponentPropsWithoutRef,
 } from "react";
-import style from "./Button.module.css";
+import style from "./Button.module.scss";
 import clsx from "clsx";
 
 const Button = forwardRef<HTMLButtonElement, Props>(

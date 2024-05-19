@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { TabsContext } from "./TabProvider";
 import clsx from "clsx";
-import style from "./Tab.module.css";
+import style from "./Tab.module.scss";
 
 type Props = {
   value: string;

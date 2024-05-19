@@ -5,7 +5,7 @@ import {
   ButtonVideo,
 } from "src/entities/Button";
 import { ImageAvatar } from "src/shared";
-import style from "./Menubar.module.css";
+import style from "./Menubar.module.scss";
 import clsx from "clsx";
 
 export default function Menubar({ className }: Props) {
@@ -27,4 +27,4 @@ export default function Menubar({ className }: Props) {
 
 type Props = {
   className?: string;
-}
+};

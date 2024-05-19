@@ -6,6 +6,8 @@ export { default as ImageAvatar } from "./ui/Avatar/ImageAvatar";
 export { default as Button } from "./ui/Button/Button";
 
 // Icon
+export { default as AddSolid } from "./ui/Icon/AddSolid";
+export { default as VoiceSolid } from "./ui/Icon/VoiceSolid";
 export { default as AddChatFolderSolid } from "./ui/Icon/AddChatFolderSolid";
 export { default as AddChatSolid } from "./ui/Icon/AddChatSolid";
 export { default as FolderSolid } from "./ui/Icon/FolderSolid";

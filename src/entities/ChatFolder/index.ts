@@ -1,2 +1,2 @@
 // UI
-export { default as ChatFolders} from './ui/ChatFolders'
+export { default as ChatFolders } from "./ui/ChatFolders";

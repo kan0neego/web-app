@@ -1,5 +1,5 @@
 import { type ComponentPropsWithoutRef } from "react";
-import style from "./ImageAvatar.module.css";
+import style from "./ImageAvatar.module.scss";
 import clsx from "clsx";
 
 export default function ImageAvatar({ buttonProps, imageProps }: Props) {

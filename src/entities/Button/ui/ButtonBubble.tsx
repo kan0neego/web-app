@@ -1,6 +1,6 @@
 import { BubbleOutline, Button } from "src/shared";
 import clsx from "clsx";
-import style from "./Button.module.css";
+import style from "./Button.module.scss";
 
 export default function ButtonBubble({}: Props) {
   return (

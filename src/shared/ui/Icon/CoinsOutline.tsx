@@ -30,8 +30,8 @@ export default function CoinsOutline({ style }: Props) {
         strokeLinejoin="round"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M8.71411 7.83913C13.1324 7.83913 16.7141 6.0037 16.7141 4.42656C16.7141 2.84827 13.1324 1.00027 8.71411 1.00027C4.29583 1.00027 0.714111 2.84827 0.714111 4.42656C0.714111 6.0037 4.29583 7.83913 8.71411 7.83913Z"
         stroke="currentColor"
         strokeWidth="0.5"
@@ -43,5 +43,5 @@ export default function CoinsOutline({ style }: Props) {
 }
 
 type Props = {
-   style?: CSSProperties;
-}
+  style?: CSSProperties;
+};

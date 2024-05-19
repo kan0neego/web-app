@@ -1,6 +1,6 @@
 import { Button, PlusSolid } from "src/shared";
 import clsx from "clsx";
-import style from "./Button.module.css";
+import style from "./Button.module.scss";
 
 export default function ButtonPluse({ className }: Props) {
   return (
@@ -9,7 +9,7 @@ export default function ButtonPluse({ className }: Props) {
         style["button-pluse"],
         style["button-pluse--radius"],
         style["button-pluse--border"],
-        className
+        className,
       )}
     >
       <PlusSolid />
@@ -18,5 +18,5 @@ export default function ButtonPluse({ className }: Props) {
 }
 
 type Props = {
-   className?: string;
+  className?: string;
 };

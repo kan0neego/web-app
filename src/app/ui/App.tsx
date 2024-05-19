@@ -1,7 +1,7 @@
 import { Chat } from "src/pages/Chat";
 import { Sidebar } from "src/widgets/Sidebar";
 import { Menubar } from "src/widgets/Menu";
-import styleMenubar from "./Menubar.module.css";
+import styleMenubar from "./Menubar.module.scss";
 import "./App.css";
 import "normalize.css";
 

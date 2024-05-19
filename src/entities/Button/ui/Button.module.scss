@@ -46,3 +46,19 @@
 .button-pluse--radius {
   border-radius: var(--main-border-radius-small);
 }
+
+.button-voice {
+  composes: button-bubble;
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  background: var(--main-gray-color);
+}
+
+.button-voice--border {
+  border: none;
+}
+
+.button-voice--radius {
+  border-radius: var(--main-border-radius-large);
+}

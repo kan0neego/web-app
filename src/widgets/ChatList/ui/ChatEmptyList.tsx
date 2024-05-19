@@ -1,5 +1,5 @@
 import { ChatBubbleOutline } from "src/shared";
-import style from "./ChatEmptyList.module.css";
+import style from "./ChatEmptyList.module.scss";
 
 export default function ChatEmptyList() {
   return (

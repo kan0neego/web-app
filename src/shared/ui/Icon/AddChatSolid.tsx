@@ -17,8 +17,8 @@ export default function ArrowDownSolid({ style }: Props) {
       <path
         d="M7.50049 10H10.0005M10.0005 10H12.5005M10.0005 10V12.5M10.0005 10V7.5"
         stroke="#1B1B1C"
-        stroke-width="0.833333"
-        stroke-linecap="round"
+        strokeWidth="0.833333"
+        strokeLinecap="round"
       />
     </svg>
   );

@@ -1,5 +1,6 @@
 :root {
   --main-text-color: #6f6f74;
+  --main-border-radius-large: 100px;
   --main-border-radius: 16px;
   --main-border-radius-small: 12px;
   --main-gray-color: rgba(38, 38, 38, 1);
@@ -29,8 +30,10 @@ body,
 #root {
   display: flex;
   flex-direction: column;
+}
 
-  @media (min-height: 380px) {
+@media (min-height: 380px) {
+  #root {
     flex-direction: row;
   }
 }

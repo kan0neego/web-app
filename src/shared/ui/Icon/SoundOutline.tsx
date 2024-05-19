@@ -10,32 +10,32 @@ export default function SoundOutline({ style }: Props) {
       <path
         d="M12 3.00024L12 21.0003"
         stroke="currentColor"
-        stroke-width="1.4"
-        stroke-linecap="round"
+        strokeWidth="1.4"
+        strokeLinecap="round"
       />
       <path
         d="M16.5 6.37509L16.5 17.6251"
         stroke="currentColor"
-        stroke-width="1.4"
-        stroke-linecap="round"
+        strokeWidth="1.4"
+        strokeLinecap="round"
       />
       <path
         d="M7.5 6.37509L7.5 17.6251"
         stroke="currentColor"
-        stroke-width="1.4"
-        stroke-linecap="round"
+        strokeWidth="1.4"
+        strokeLinecap="round"
       />
       <path
         d="M21 10.8754L21 13.1254"
         stroke="currentColor"
-        stroke-width="1.4"
-        stroke-linecap="round"
+        strokeWidth="1.4"
+        strokeLinecap="round"
       />
       <path
         d="M3 10.8754L3 13.1254"
         stroke="currentColor"
-        stroke-width="1.4"
-        stroke-linecap="round"
+        strokeWidth="1.4"
+        strokeLinecap="round"
       />
     </svg>
   );

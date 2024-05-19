@@ -1,7 +1,8 @@
 import { ButtonPluse } from "src/entities/Button";
 import { CoinsOutline, Tab, TabPanel, TabSwitcher } from "src/shared";
 import { ChatList } from "src/widgets/ChatList";
-import style from "./Chat.module.css";
+import { ChatFrame } from "src/widgets/ChatFrame";
+import style from "./Chat.module.scss";
 
 export default function Chat() {
   return (
@@ -15,7 +16,7 @@ export default function Chat() {
         </div>
       </header>
       <section className={style["chat__main"]}>
-        <div className={style["main__list"]}>
+        <aside className={style["main__list"]}>
           <TabSwitcher
             defaultTab="list"
             ListComponent={
@@ -35,8 +36,10 @@ export default function Chat() {
               </>
             }
           />
+        </aside>
+        <div className={style["main__frame"]}>
+          <ChatFrame />
         </div>
-        <div className={style["main__frame"]}>chat-frame</div>
       </section>
     </main>
   );

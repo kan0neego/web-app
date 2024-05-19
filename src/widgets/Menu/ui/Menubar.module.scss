@@ -12,12 +12,16 @@
   right: 0;
 
   @media (min-width: 380px) {
-    width: 40px;
-    height: 196px;
-    padding: 0;
+    width: 44px;
+    height: 200px;
     position: relative;
-    border-radius: var(--main-border-radius);
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+    border: 2px solid var(--main-hight-color);
+    border-radius: var(--main-border-radius);
   }
 }
 
@@ -26,12 +30,12 @@
 }
 
 .menubar__user-profile {
-  @media(min-width: 380px) {
+  @media (min-width: 380px) {
     display: none;
   }
 }
 
-.menubar__user-profile__button{
+.menubar__user-profile__button {
   width: 36px;
   height: 36px;
 }

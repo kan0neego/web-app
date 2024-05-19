@@ -8,7 +8,11 @@ type Props = {
   PanelComponent: React.ReactElement;
 };
 
-export default function TabSwitcher({ defaultTab, ListComponent, PanelComponent }: Props) {
+export default function TabSwitcher({
+  defaultTab,
+  ListComponent,
+  PanelComponent,
+}: Props) {
   const [value, setValue] = useState(defaultTab);
 
   return (

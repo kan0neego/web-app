@@ -1,6 +1,6 @@
 import { Button, ImageOutline } from "../../../shared";
 import clsx from "clsx";
-import style from "./Button.module.css";
+import style from "./Button.module.scss";
 
 export default function ButtonImage({}: Props) {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./TabList.module.css";
+import style from "./TabList.module.scss";
 
 type Props = {
   onClick: (value: string) => void;

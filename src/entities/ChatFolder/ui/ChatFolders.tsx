@@ -1,5 +1,5 @@
 import { ArrowDownSolid, FolderSolid } from "src/shared";
-import style from "./ChatFolders.module.css";
+import style from "./ChatFolders.module.scss";
 
 export default function ChatFolders({ children }: Props) {
   return (
