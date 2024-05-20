@@ -4,11 +4,11 @@ import style from "./ChatFolders.module.scss";
 export default function ChatFolders({ children }: Props) {
   return (
     <>
-      <div className={style["list__folders"]}>
+      <button className={style["list__folders"]}>
         <ArrowDownSolid />
         <FolderSolid />
         <span className={style["folders__text"]}>Все чаты</span>
-      </div>
+      </button>
       <div className={style["list__lists"]}>{children}</div>
     </>
   );

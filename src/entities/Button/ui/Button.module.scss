@@ -20,6 +20,10 @@
   }
 }
 
+.button--bg-gray {
+  background: var(--main-gray-color);
+}
+
 .button-bubble--radius {
   border: none;
   border-radius: var(--main-border-radius);
@@ -47,18 +51,17 @@
   border-radius: var(--main-border-radius-small);
 }
 
-.button-voice {
+.button-micro {
   composes: button-bubble;
   width: 48px;
   height: 48px;
   padding: 12px;
-  background: var(--main-gray-color);
 }
 
-.button-voice--border {
+.button-micro--border {
   border: none;
 }
 
-.button-voice--radius {
+.button-micro--radius {
   border-radius: var(--main-border-radius-large);
 }

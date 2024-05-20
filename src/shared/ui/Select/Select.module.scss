@@ -1,0 +1,15 @@
+.select {
+  width: 220px;
+  height: 40px;
+  position: relative;
+}
+
+.select__arrow {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 23px;
+  top: 0;
+}

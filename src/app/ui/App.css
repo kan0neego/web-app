@@ -27,6 +27,11 @@ body,
   height: 100%;
 }
 
+html {
+  font-family: "Ubuntu";
+  font-weight: 400;
+}
+
 #root {
   display: flex;
   flex-direction: column;
@@ -40,6 +45,15 @@ body,
 
 body {
   background: var(--main-low-color);
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
 }
 
 /* FIREFOX */

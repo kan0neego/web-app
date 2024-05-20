@@ -7,6 +7,7 @@ import style from "./Chat.module.scss";
 export default function Chat() {
   return (
     <main className={style.chat}>
+      {/* TODO: Вынести в отдельный компонент */}
       <header className={style["chat__header"]}>
         <h1 className={style["chat__header__title"]}>Чат</h1>
         <div className={style["chat__header__money"]}>
@@ -15,6 +16,7 @@ export default function Chat() {
           <ButtonPluse className={style["money__button"]} />
         </div>
       </header>
+      {/*  */}
       <section className={style["chat__main"]}>
         <aside className={style["main__list"]}>
           <TabSwitcher

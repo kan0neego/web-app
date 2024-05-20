@@ -5,16 +5,52 @@ export default function VoiceSolid({ style }: Props) {
     <svg
       style={{ color: "white", ...style }}
       xmlns="http://www.w3.org/2000/svg"
-      width="12"
-      height="19"
-      viewBox="0 0 12 19"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
       fill="none"
     >
       <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M7.51637 1.102C7.92519 1.48746 8.15486 2.01025 8.15486 2.55537V8.72147C8.15486 9.26659 7.92519 9.78938 7.51637 10.1748C7.10755 10.5603 6.55306 10.7768 5.9749 10.7768C5.39674 10.7768 4.84226 10.5603 4.43344 10.1748C4.02462 9.78938 3.79495 9.26659 3.79495 8.72147V2.55537C3.79495 2.01025 4.02462 1.48746 4.43344 1.102C4.84226 0.716547 5.39674 0.5 5.9749 0.5C6.55306 0.5 7.10755 0.716547 7.51637 1.102ZM0.52528 8.1922C0.817542 8.1922 1.05447 8.42913 1.05447 8.72139C1.05447 9.93345 1.56486 11.1026 2.48454 11.9698C3.40529 12.8379 4.6604 13.3306 5.97518 13.3306C7.28995 13.3306 8.54506 12.8379 9.46581 11.9698C10.3855 11.1026 10.8959 9.93345 10.8959 8.72139C10.8959 8.42913 11.1328 8.1922 11.4251 8.1922C11.7173 8.1922 11.9543 8.42913 11.9543 8.72139C11.9543 10.2349 11.3163 11.6797 10.1919 12.7398C9.19498 13.6797 7.88788 14.2502 6.5048 14.3667V17.9708C6.5048 18.2631 6.26787 18.5 5.97561 18.5C5.68335 18.5 5.44642 18.2631 5.44642 17.9708V14.3668C4.06302 14.2504 2.75558 13.6799 1.75849 12.7398C0.634073 11.6797 -0.00390625 10.2349 -0.00390625 8.72139C-0.00390625 8.42913 0.233019 8.1922 0.52528 8.1922Z"
-        fill="currentColor"
+        d="M12 7V17"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M15 10V14"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M18 8V16"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M21 13V11"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M9 4V20"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M6 9V15"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M3 13V11"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

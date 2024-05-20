@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Ubuntu";
+  src:
+    local("Ubuntu"),
+    url("/fonts/ubuntu/Ubuntu.ttf") format("ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "AKONY";
+  src:
+    local("AKONY"),
+    url("/fonts/akony/AKONY.woff") format("woff"),
+    url("/fonts/akony/AKONY.woff2") format("woff2"),
+    url("/fonts/akony/AKONY.ttf") format("ttf");
+  font-weight: normal;
+}
